@@ -1,0 +1,2 @@
+name: Extract Issue Template Fields
+uses: imjohnbo/extract-issue-template-fields@v1.0.1
