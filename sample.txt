@@ -1,0 +1,32 @@
+### Preflight Checklist
+* [x]  I have read the [Contributing Guidelines](https://github.com/electron/electron/blob/main/CONTRIBUTING.md) for this project.
+* [x]  I agree to follow the [Code of Conduct](https://github.com/electron/electron/blob/main/CODE_OF_CONDUCT.md) that this project adheres to.
+* [x]  I have searched the [issue tracker](https://www.github.com/electron/electron/issues) for a bug report that matches the one I want to file, without success.
+ 
+### Electron Version
+all
+ 
+### What operating system are you using?
+macOS
+ 
+### Operating System Version
+n/a
+ 
+### What arch are you using?
+Other (specify below)
+ 
+### Last Known Working Electron version
+n/a
+ 
+### Expected Behavior
+The context bridge should at least have the option of exposing functionality to worker threads, as well as the main thread, else   security has to be sacrificed (Node Integration for every thread) to access Node APIs in the renderer.
+ 
+### Actual Behavior
+The context bridge only works in the main thread.
+
+### Testcase Gist URL
+_No response_
+ 
+### Additional Information
+_No response_
+
